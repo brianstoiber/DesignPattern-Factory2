@@ -17,7 +17,7 @@ public class DonutFactory {
 		return donut;
 	}
 	 
-	// printing out process
+	// printing out factory process
 	public Donut order(String type) {
 		Donut donut = createDonut(type);
 		System.out.println("\n*** Making a " + donut.getName() + " Donut ***");

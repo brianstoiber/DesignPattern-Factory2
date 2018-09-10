@@ -12,7 +12,7 @@ public class BakeryFactoryTest {
 		DonutFactory donutStore = new DonutFactory();
 		CookieFactory cookieStore = new CookieFactory();
 		
-		// selecting the type of donut or cookie the customer chose 
+		// selecting the type of donut or cookie the customer decided to choose
 		switch(choice){
 		case 1:
 			System.out.println("What kind of donut do you want? \nBostonCream \nGlazed \nLongJohn \nMarbleFrosted \nChocolateFrosted \n (enter the name)");
