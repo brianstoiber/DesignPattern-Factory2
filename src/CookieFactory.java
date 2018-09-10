@@ -13,12 +13,14 @@ public class CookieFactory {
 		return cookie;
 	}
 	 
+	// printing out process
 	public Cookie order(String type) {
 		Cookie cookie = createCookie(type);
-		System.out.println("\n*** Making a " + cookie.getName() + " ***");
+		System.out.println("\n*** Making a " + cookie.getName() + " Cookie ***");
 		cookie.create();
 		cookie.rollBalls();
 		cookie.bake();
+		cookie.cool();
 		cookie.box();
 		return cookie;
 	}

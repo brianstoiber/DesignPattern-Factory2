@@ -17,6 +17,10 @@ public abstract class Cookie {
 		System.out.println("Baking cookie for 12 minutes at 350 degrees");
 	}
 	
+	void cool() {
+		System.out.println("Letting cookies cool for 10 minutes");
+	}
+	
 	void box() {
 		System.out.println("Packaging for customer");
 	}
